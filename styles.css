@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: url("delila.png");
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+    
+    
+    /* background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    /* background: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+    height: 100vh; */
+}
+.container{
+  position: relative;
+  width: 80%;
+  height: 90%;
+  background: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 16px;
+  padding: 20px;
+  color: #fff;
+  transition: height .6s ease;
+}
+
+/* #menu-background-pattern {
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.1) 9%, 
+      transparent 9%
+    );
+    background-position: 0% 0%;
+    background-size: 12vmin 12vmin;
+    height: 100vh;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    transition: opacity 800ms ease, 
+      background-size 800ms ease,
+      background-position 800ms ease;
+    width: 100vw;
+    z-index: 1;
+  }
+  
+  #menu-background-image {
+    background-image: url("delila.png");
+    background-position: center 40%;
+    background-size: 110vmax;
+    height: 100%;
+    left: 0px;  
+    opacity: 0.15;
+    position: absolute;
+    top: 0px;
+    transition: opacity 800ms ease,
+      background-size 800ms ease,
+      background-position 800ms ease;
+    width: 100%;
+    z-index: 0;
+  } */
+
+h1 {
+    color: #ffffff;
+    z-index: 50;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}li {
+    margin: 20px;
+}
+
+#dateList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.date-button {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  outline: none;
+  font-size: 16px;
+    color: #ffffff;
+    padding: 10px 10px;
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    margin: 5px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+.date-button:hover{
+  background-color: #fff;
+  color: black;
+  transform: scale(1.05);
+}
